@@ -30,7 +30,7 @@ def lower_chain(input_str):
 # INPUT : pdb_seqres.txt
 # OUTPUT: pdb_pep_chain, pdbid_all_fasta
 raw_str=''
-with open('pdb_seqres_test.txt','r') as f:
+with open('pdb_seqres_small.txt','r') as f:
     for line in f.readlines():
         raw_str = raw_str+line.replace('\n','###')
 raw_list = raw_str.split('>')
