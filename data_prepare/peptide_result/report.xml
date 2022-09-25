@@ -49,15 +49,15 @@
       <interacting_chain id="1">B</interacting_chain>
     </interacting_chains>
     <bs_residues>
-      <bs_residue aa="CYS" contact="False" id="1" min_dist="6.4">16B</bs_residue>
-      <bs_residue aa="ASN" contact="True" id="2" min_dist="3.1">11B</bs_residue>
-      <bs_residue aa="ASN" contact="False" id="3" min_dist="3.4">12B</bs_residue>
-      <bs_residue aa="MET" contact="False" id="4" min_dist="3.8">10B</bs_residue>
+      <bs_residue aa="MET" contact="False" id="1" min_dist="3.8">10B</bs_residue>
+      <bs_residue aa="ASP" contact="True" id="2" min_dist="2.8">14B</bs_residue>
+      <bs_residue aa="ASN" contact="False" id="3" min_dist="6.8">9B</bs_residue>
+      <bs_residue aa="TYR" contact="False" id="4" min_dist="4.8">15B</bs_residue>
       <bs_residue aa="CYS" contact="False" id="5" min_dist="7.3">8B</bs_residue>
-      <bs_residue aa="ASN" contact="False" id="6" min_dist="6.8">9B</bs_residue>
-      <bs_residue aa="PRO" contact="True" id="7" min_dist="3.2">13B</bs_residue>
-      <bs_residue aa="TYR" contact="False" id="8" min_dist="4.8">15B</bs_residue>
-      <bs_residue aa="ASP" contact="True" id="9" min_dist="2.8">14B</bs_residue>
+      <bs_residue aa="ASN" contact="True" id="6" min_dist="3.1">11B</bs_residue>
+      <bs_residue aa="ASN" contact="False" id="7" min_dist="3.4">12B</bs_residue>
+      <bs_residue aa="CYS" contact="False" id="8" min_dist="6.4">16B</bs_residue>
+      <bs_residue aa="PRO" contact="True" id="9" min_dist="3.2">13B</bs_residue>
     </bs_residues>
     <interactions>
       <hydrophobic_interactions>
