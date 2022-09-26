@@ -1,34 +1,11 @@
 import pandas as pd
 import numpy as np
 
-def check_abnormal_aa(peptide_seq):
-    len_seq = len(peptide_seq)
-    cnt = 0
-    standard_aa = ['G','A','P','V','L','I','M','F','Y','W','S','T','C','N','Q','K','H','R','D','E']
-    for i in peptide_seq:
-        if i in standard_aa :
-            cnt = cnt+1
-    score = float(cnt)/len_seq
-    return score
-
-def lower_chain(input_str):
-    chain_list = list(input_str)
-    output_list = []
-
-    for item in chain_list:
-        if item.isalpha() :
-            a=item.lower()
-        else :
-            a=item
-        output_list.append(a)
-    output_str = ''.join(output_list)
-    return output_str
-
 # Step 0: parse the fasta file downloaded from the RCSB PDB
 # INPUT : pdb_seqres.txt
 # OUTPUT: pdb_pep_chain, pdbid_all_fasta
 raw_str=''
-with open('pdb_seqres_small.txt','r') as f:
+with open('pdb_seqres.txt','r') as f:
     for line in f.readlines():
         raw_str = raw_str+line.replace('\n','###')
 raw_list = raw_str.split('>')
