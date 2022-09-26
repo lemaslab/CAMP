@@ -24,9 +24,9 @@ library(readr)
 # **************************************************************************** #
 
 # import data
-chain <- read_tsv("~/CAMP/data_prepare/SLURM/pdb_pep_chain")
+chain <- read_tsv("~/CAMP/data_prepare/step1/pdb_pep_chain")
 
-fasta <- read_tsv("~/CAMP/data_prepare/SLURM/pdbid_all_fasta")
+fasta <- read_tsv("~/CAMP/data_prepare/step1/pdbid_all_fasta")
 
 
 ```
