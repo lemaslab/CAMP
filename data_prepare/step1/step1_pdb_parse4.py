@@ -61,5 +61,5 @@ def load_all_fasta(all_fasta_file,input_dataset): # pdbid_all_fasta # df_predict
 
 	return df_predict_det1
 	
-df_predict_det1 = load_all_fasta('pdbid_all_fasta_demo','plip_predict_result')
+df_predict_det1 = load_all_fasta('pdbid_all_fasta','plip_predict_result')
 
