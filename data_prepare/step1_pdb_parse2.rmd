@@ -1,0 +1,74 @@
+---
+title: "step1_pdb_parse2.rmd"
+author: "Dominick J. Lemas"
+date: "2022-09-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+# **************************************************************************** #
+# ***************                Library                       *************** #
+# **************************************************************************** #
+
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(message = FALSE)
+library(tidyverse)
+library(readr)
+```
+
+```{r import}
+
+# **************************************************************************** #
+# ***************              Open    Data                    *************** #
+# **************************************************************************** #
+
+# import data
+chain <- read_tsv("~/CAMP/data_prepare/SLURM/pdb_pep_chain")
+
+fasta <- read_tsv("~/CAMP/data_prepare/SLURM/pdbid_all_fasta")
+
+
+```
+
+```{r import}
+
+# **************************************************************************** #
+# ***************              Subset to Demo Data             *************** #
+# **************************************************************************** #
+
+# PPDbench: https://webs.iiitd.edu.in/raghava/ppdbench/dataset.php
+# ligands (133)
+
+pdb_id_demo=c("1cjr","1cka","1cvu")
+
+# subset data
+demo.c <- chain %>%
+  filter(PDB_id %in% pdb_id_demo) %>%
+   write_delim(file="pdb_pep_chain_demo", delim = "\t")
+
+# subset data
+demo.f <- fasta %>%
+  filter(PDB_id %in% pdb_id_demo) %>%
+  write_delim(file="pdbid_all_fasta_demo", delim = "\t")
+
+
+
+```
+
+```{r import}
+
+# **************************************************************************** #
+# ***************              Explore        Data             *************** #
+# **************************************************************************** #
+  
+hist(chain$PDB_seq_len)
+
+length(unique(chain$PDB_id))
+
+hist(fasta$PDB_seq_len)
+
+length(unique(fasta$PDB_id))
+
+
+```

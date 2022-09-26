@@ -95,3 +95,10 @@ Some researchers find that the web server generating secondary structures http:/
 This software is copyrighted by Machine Learning and Computational Biology Group @ Tsinghua University.
 
 The algorithm and data can be used only for NON COMMERCIAL purposes.
+
+
+### Zenodo
+
+https://zenodo.org/record/5180473#.YzHrJ3bMKJE 
+
+https://zenodo.org/record/4456470#.YzHrXXbMKJE
