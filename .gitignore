@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+
+*.gz
+pdb_seqres.txt
