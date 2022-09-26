@@ -5,7 +5,11 @@ import numpy as np
 # INPUT : pdb_seqres.txt
 # OUTPUT: pdb_pep_chain, pdbid_all_fasta
 raw_str=''
+<<<<<<< Updated upstream
 with open('pdb_seqres.txt','r') as f:
+=======
+with open('pdb_demo.fasta','r') as f:
+>>>>>>> Stashed changes
     for line in f.readlines():
         raw_str = raw_str+line.replace('\n','###')
 raw_list = raw_str.split('>')
