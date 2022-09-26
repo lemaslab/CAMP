@@ -56,4 +56,4 @@ def load(pdb_pep_dataset,plip_result_filename): #pdb_pep_chain   #plip_predict_r
 
 	return df_predict
 	
-df_predict = load('pdb_pep_chain','plip_predict_result')
+df_predict = load('pdb_pep_chain_demo','plip_predict_result')

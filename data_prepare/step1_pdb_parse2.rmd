@@ -40,7 +40,7 @@ fasta <- read_tsv("~/CAMP/data_prepare/SLURM/pdbid_all_fasta")
 # PPDbench: https://webs.iiitd.edu.in/raghava/ppdbench/dataset.php
 # ligands (133)
 
-pdb_id_demo=c("1cjr","1cka","1cvu")
+pdb_id_demo=c("1cjr","1cvu")
 
 # subset data
 demo.c <- chain %>%
