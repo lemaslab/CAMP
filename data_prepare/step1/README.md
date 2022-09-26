@@ -5,49 +5,47 @@ CAMP is a sequence-based deep learning framework for multifaceted prediction of 
 ### CAMP
 #### 1. navigate to /data_prepare directory  
 ```
-cd ~/CAMP/data_prepare/
+cd ~/CAMP/data_prepare/step1
 ```
 
-## Download all sequence data from PDB
+### Download all sequence data from PDB
 # website: https://www.rcsb.org/docs/programmatic-access/file-download-services
 
-## unzip the data
+### unzip the data
 
 pdb_seqres.txt.gz --> pdb_seqres.txt
 
-## run step1_pdb_parse1.py
+### run step1_pdb_parse1.py on supercomputer
 # requires: Python 3.10.7, pandas and numpy installed
 
-python .\step1_pdb_parse1.py
+sbatch 00_run_python_step1_parse1.sh
+python step1_pdb_parse1.py
 
-#### PLIP Dockerhub: https://hub.docker.com/r/pharmai/plip
-```
-docker pull pharmai/plip
-```
+### run step1_pdb_parse2.rmd
+# this requires r and rstudio to select a subset of IDs
 
-#### Run PLIP
-```
-docker run -v ${PWD}:/results -w /results pharmai/plip:latest -i 1A0M -yv
+Rscript step1_pdb_parse2.rmd
 
-docker run -v ${PWD}:/results -w /results pharmai/plip:latest -i 1A0M --peptides A -vx
-```
 
-## PDB Used in Paper
+### PLIP Server for each gene included. 133 in paper. 
 
-histone H3 lysine 9 (PDB ID: 3QO2 [http://doi.org/10.2210/pdb3QO2/pdb])
+https://plip-tool.biotec.tu-dresden.de/plip-web/plip/index
 
-T3 phosphorylated H3(1-15) peptide (PDB ID: 3UIG [http://doi.org/10.2210/pdb3UIG/pdb])
+select the text output (RSL version) and save file for each PDBID
 
-3IOL
+./peptide_result/'+pdb_id + '_'+chain+'_result.txt'
 
-4ZGM
+- 1cjr_a_result
+- 1cvu_f_result
 
-Semaglutide-GlP-1R complex (PDB ID: 4ZGM [http://doi.org/10.2210/pdb4ZGM/pdb]) 
+### run step1_pdb_parse3.py
 
-# From READme.txt
-1. 下载sequence和residues：crawl.py
-2.  生成peptide，receptor的target和query sequence
-3.  生成query的sequence vector: query_mapping.py
-4.  生成target的sequence vector：target_mapping.py
-5. 下载binding inter：download_inter.py
-6.  生成matrix:matrix.py
+python step1_pdb_parse3.py
+
+### run step1_pdb_parse4.py
+
+python step1_pdb_parse4.py
+
+
+### PDB Used in Paper
+
