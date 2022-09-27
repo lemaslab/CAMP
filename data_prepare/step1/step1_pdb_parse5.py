@@ -36,4 +36,4 @@ def map_uniprot_chain(input_dataset,pdb_chain_uniprot_file): #df_predict_det1 #p
 
 	return df_predict_det2_no_uni,df_predict_det3
 
-df_predict_det2_no_uni,df_predict_det3 = map_uniprot_chain(df_predict_det1,'pdb_chain_uniprot.tsv')
+df_predict_det2_no_uni,df_predict_det3 = map_uniprot_chain('df_predict_det1','pdb_chain_uniprot.tsv')
