@@ -23,7 +23,7 @@ library(readr)
 # ***************              Open    Data                    *************** #
 # **************************************************************************** #
 
-# import data
+# import data created by step1_pdb_parse1.py
 chain <- read_tsv("~/CAMP/data_prepare/step1/pdb_pep_chain")
 
 fasta <- read_tsv("~/CAMP/data_prepare/step1/pdbid_all_fasta")
