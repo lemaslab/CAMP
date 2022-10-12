@@ -1,5 +1,5 @@
 ---
-title: "step1_pdb_parse2.rmd"
+title: "step1_1.rmd"
 author: "Dominick J. Lemas"
 date: "2022-09-26"
 output: html_document
@@ -23,7 +23,7 @@ library(readr)
 # ***************              Open    Data                    *************** #
 # **************************************************************************** #
 
-# import data created by step1_pdb_parse1.py
+# import data created by step1_0.py
 chain <- read_tsv("~/CAMP/data_prepare/step1/pdb_pep_chain")
 
 fasta <- read_tsv("~/CAMP/data_prepare/step1/pdbid_all_fasta")
@@ -40,7 +40,12 @@ fasta <- read_tsv("~/CAMP/data_prepare/step1/pdbid_all_fasta")
 # PPDbench: https://webs.iiitd.edu.in/raghava/ppdbench/dataset.php
 # ligands (133)
 
-pdb_id_demo=c("1cjr","1cvu")
+pdb_id_demo=c("1cjr","1cka","1cvu","1d4t","1eg4","1h6w","1hc9")
+              
+
+
+# pdb_id_chain=c("1cjr_a","1cka_b","1cvu_f","1d4t_b","1eg4_p","1h6w_b","1hc9_c")
+
 
 # subset data
 demo.c <- chain %>%
@@ -56,19 +61,3 @@ demo.f <- fasta %>%
 
 ```
 
-```{r import}
-
-# **************************************************************************** #
-# ***************              Explore        Data             *************** #
-# **************************************************************************** #
-  
-hist(chain$PDB_seq_len)
-
-length(unique(chain$PDB_id))
-
-hist(fasta$PDB_seq_len)
-
-length(unique(fasta$PDB_id))
-
-
-```
