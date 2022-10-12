@@ -3,9 +3,9 @@ ppdbench_file_name,pdb_id,sequence,chain_id,PLIP_file_name1,uniprot_id
 1cka.lig.pdb,1cka,,b,1cka_b_result,
 1cvu.lig.pdb,1cvu,,c,,
 1d4t.lig.pdb,1d4t,,b,1d4t_b_result,Q13291
-1eg4.lig.pdb,1eg4,,,,
-1h6w.lig.pdb,1h6w,,,,
-1hc9.lig.pdb,1hc9,,,,
+1eg4.lig.pdb,1eg4,,a,1eg4_a_result,Q14118
+1h6w.lig.pdb,1h6w,,b,1h6w_b_result,P10930
+1hc9.lig.pdb,1hc9,,c,1hc9_c_result,
 1jbu.lig.pdb,1jbu,,,,
 1k5n.lig.pdb,1k5n,,,,
 1mfg.lig.pdb,1mfg,,,,
@@ -118,7 +118,7 @@ ppdbench_file_name,pdb_id,sequence,chain_id,PLIP_file_name1,uniprot_id
 3zqh.lig.pdb,3zqh,,,,
 4b4n.lig.pdb,4b4n,,,,
 4dcb.lig.pdb,4dcb,,,,
-4e34.lig.pdb,4e34,,,,
+4e34.lig.pdb,4.00E+34,,,,
 4eik.lig.pdb,4eik,,,,
 4ery.lig.pdb,4ery,,,,
 4f14.lig.pdb,4f14,,,,
