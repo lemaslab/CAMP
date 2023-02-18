@@ -1,0 +1,8 @@
+FROM ubuntu:xenial-20181218
+MAINTAINER Dominick Lemas djlemas@ufl.edu
+
+RUN apt update && apt -y install \
+   unzip \
+   curl  
+
+RUN curl https://download.igb.uci.edu/SCRATCH-1D_1.2.tar.gz
