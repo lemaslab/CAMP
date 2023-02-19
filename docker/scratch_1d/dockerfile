@@ -3,10 +3,11 @@ MAINTAINER Dominick Lemas djlemas@ufl.edu
 
 RUN apt update && apt -y install \
    unzip \
+   build-essential \
    wget  
 
 RUN wget -P tmp/ https://download.igb.uci.edu/SCRATCH-1D_1.2.tar.gz 
 
-RUN tar -xf /tmp/SCRATCH-1D_1.2.tar.gz -C /home
+RUN tar -xvzf /tmp/SCRATCH-1D_1.2.tar.gz -C /home
 
-RUN mkdir -p /blue /orange /scratch/local
+RUN mkdir -p /blue /orange /scratch/local /share
