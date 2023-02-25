@@ -1,12 +1,11 @@
-FROM ubuntu:xenial-20181218
+FROM ubuntu:latest
 MAINTAINER Dominick Lemas djlemas@ufl.edu
 
 RUN apt update && apt -y install \
-   unzip \
    build-essential \
    wget  
 
-RUN wget https://download.igb.uci.edu/SCRATCH-1D_1.2.tar.gz \
-   && tar -xv SCRATCH-1D_1.2.tar.gz 
+RUN wget http://www.sbeams.org/sample_data/Microarray/External_test_data.tar.gz 
+RUN tar -xvf External_test_data.tar.gz  
 
 RUN mkdir -p /blue /orange /scratch/local /share
