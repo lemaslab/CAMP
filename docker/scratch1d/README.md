@@ -10,12 +10,8 @@ Building dockerfile
 
 docker pull ubuntu:latest
 
-# boot into container
-docker run -it ubuntu:latest bash
+docker build -t scratch1d . 
 
-# inside container
-apt update && apt -y install \
-   build-essential \
-   wget  
-   
+docker tag 9e46ada61a14 dominicklemas/scratch1d:02_2023
+docker push dominicklemas/scratch1d:02_2023   
   
