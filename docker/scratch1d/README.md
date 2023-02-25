@@ -10,7 +10,7 @@ Building dockerfile
 
 docker pull ubuntu:latest
 
-docker build -t scratch1d . 
+docker build -t scratch1d_1.2 . 
 
 docker tag 9e46ada61a14 dominicklemas/scratch1d:02_2023
 docker push dominicklemas/scratch1d:02_2023   
