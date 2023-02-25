@@ -2,11 +2,10 @@ FROM ubuntu:latest
 MAINTAINER Dominick Lemas djlemas@ufl.edu
 
 RUN apt update && apt -y install \
-   unzip \
    build-essential \
    wget  
 
-RUN wget https://download.igb.uci.edu/SCRATCH-1D_1.2.tar.gz \
-   && tar -xv SCRATCH-1D_1.2.tar.gz 
+RUN wget https://download.igb.uci.edu/SCRATCH-1D_1.2.tar.gz
+RUN tar -xvf SCRATCH-1D_1.2.tar.gz
 
 RUN mkdir -p /blue /orange /scratch/local /share

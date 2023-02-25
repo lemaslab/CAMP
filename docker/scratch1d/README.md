@@ -4,6 +4,8 @@ CAMP is a sequence-based deep learning framework for multifaceted prediction of 
 
 https://download.igb.uci.edu/
 
+# note: We need to install dependencies. https://download.igb.uci.edu/SCRATCH-1D_2.0_readme.txt
+
 Building dockerfile
 
 docker pull ubuntu:latest
@@ -13,6 +15,7 @@ docker run -it ubuntu:latest bash
 
 # inside container
 apt update && apt -y install \
-   unzip \
    build-essential \
    wget  
+   
+  
