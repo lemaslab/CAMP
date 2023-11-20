@@ -1,0 +1,17 @@
+---
+title: "ssw-r"
+author: "Dominick Lemas"
+date: "2023-11-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#remotes::install_github("nanxstats/ssw-r")
+reticulate::use_python("/usr/local/bin/python3")
+library("ssw")
+
+
+```
+
