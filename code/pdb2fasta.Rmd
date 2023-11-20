@@ -1,0 +1,55 @@
+---
+title: "pdb2fasta"
+author: "Dominick Lemas"
+date: "2023-11-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(bio3d)
+library(stringr)
+
+```
+
+
+
+```{r cars}
+
+input_path="V:/FACULTY/DJLEMAS/BENCHMARK_DATA/PPDbench/receptors133.pdb/"
+
+files <- list.files(path=input_path,
+                    pattern=".pdb",
+                    all.files=TRUE,
+                    full.names=TRUE)
+
+output_path="V:/FACULTY/DJLEMAS/BENCHMARK_DATA/PPDbench/receptors133.fa"
+
+# write pdb to fasta
+file_count=length(files)
+
+# loop through annotations
+for(i in 1:file_count) {
+
+  # file name
+  file_name=files[i]
+
+  # open pdb
+  pdb <- read.pdb(file_name)
+  
+  # create file name
+  split <- str_split(file_name, "/")
+  pdb_name_tmp=tail(split[[1]], 1) 
+  pdb_name=gsub("pdb","fa",pdb_name_tmp,)
+
+  ## Extract sequence from PDB file
+  a <- aa321(pdb$atom[pdb$calpha,"resid"]) # ATOM
+
+  ## Write simple fasta file
+  outfile1 = file.path(output_path, pdb_name)
+  write.fasta(seqs=seqbind(a), file=outfile1)
+}
+
+```
+
