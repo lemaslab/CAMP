@@ -27,9 +27,8 @@ docker pull pharmai/plip
 
 #### Run PLIP
 ```
-docker run -v ${PWD}:/results -w /results pharmai/plip:latest -i 1A0M -yv
+docker run -v ${PWD}:/results -w /results pharmai/plip:latest -i 1A0M -t
 
-docker run -v ${PWD}:/results -w /results pharmai/plip:latest -i 1A0M --peptides A -vx
 ```
 
 ## PDB Used in Paper
