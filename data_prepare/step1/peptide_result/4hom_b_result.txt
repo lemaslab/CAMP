@@ -1,0 +1,25 @@
+Prediction of noncovalent interactions for PDB structure 4HOM_PROTEIN
+=====================================================================
+Created on 2022/10/13 using PLIP v2.2.2
+
+If you are using PLIP in your work, please cite:
+Adasme,M. et al. PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucl. Acids Res. (05 May 2021), gkab294. doi: 10.1093/nar/gkab294
+Analysis was done on model 1.
+
+ARG:B:1 (ARG-PRO-LYS-PRO-GLN-GLN-PHE-PHE-GLY-LEU-MET) - PEPTIDE
+  + PRO:B:2
+  + LYS:B:3
+  + PRO:B:4
+  + GLN:B:5
+  + GLN:B:6
+  + PHE:B:7
+  + PHE:B:8
+  + GLY:B:9
+  + LEU:B:10
+  + MET:B:11
+---------------------------------------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.

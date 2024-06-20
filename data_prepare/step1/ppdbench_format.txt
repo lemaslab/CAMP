@@ -1,0 +1,17 @@
+# this script is intended to:
+- read the file: ./ppdbench_metadata.csv. this file contains all "ligand" pdb files. 
+- read the directory with ligand pdb files
+- load biopython
+- read each pdb file and output the sequence as a column in ./ppdbench_metadata.csv
+- output the metadata file.
+
+# https://biopython.org/wiki/The_Biopython_Structural_Bioinformatics_FAQ
+
+How do I get the sequence of a structure?
+The first thing to do is to extract all polypeptides from the structure (see previous entry). The sequence of each polypeptide can then easily be obtained from the Polypeptide objects. The sequence is represented as a Biopython Seq object.
+
+Example:
+
+>>> seq = polypeptide.get_sequence()
+>>> print(seq)
+Seq('SNVVE...')

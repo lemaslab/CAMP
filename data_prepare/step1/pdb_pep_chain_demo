@@ -1,3 +1,9 @@
 PDB_type	PDB_seq_len	PDB_seq	PDB_id	chain
 protein	15	KETAAAKFERQHMDS	1cjr	a
+protein	10	PPPALPPKKR	1cka	b
 protein	9	TKTATINAS	1cvu	f
+protein	11	KSLTIYAQVQK	1d4t	b
+protein	15	KNMTPYRSPPPYVPP	1eg4	p
+protein	10	SLNYIIKVKE	1h6w	b
+protein	13	WRYYESSLLPYPD	1hc9	c
+protein	13	WRYYESSLLPYPD	1hc9	d

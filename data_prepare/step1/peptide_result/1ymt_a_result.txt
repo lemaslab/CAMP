@@ -1,0 +1,271 @@
+Prediction of noncovalent interactions for PDB structure 1YMT
+=============================================================
+Created on 2022/10/13 using PLIP v2.2.2
+
+If you are using PLIP in your work, please cite:
+Adasme,M. et al. PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucl. Acids Res. (05 May 2021), gkab294. doi: 10.1093/nar/gkab294
+Analysis was done on model 1.
+
+GLY:A:217 (GLY-SER-SER-GLY-GLY-PRO-ASN-VAL-PRO-GLU-LEU-ILE-LEU-GLN-LEU-LEU-GLN-LEU-GLU-PRO-GLU-GLU-ASP-GLN-VAL-ARG-ALA-ARG-ILE-VAL-GLY-CYS-LEU-GLN-GLN-PRO-ALA-PRO-PHE-SER-LEU-LEU-CYS-ARG-MET-ALA-ASP-GLN-THR-PHE-ILE-SER-ILE-VAL-ASP-TRP-ALA-ARG-ARG-CYS-MET-VAL-PHE-LYS-GLU-LEU-GLU-VAL-ALA-ASP-GLN-MET-THR-LEU-LEU-GLN-ASN-SER-TRP-SER-GLU-LEU-LEU-VAL-LEU-ASP-HIS-ILE-TYR-ARG-GLN-VAL-GLN-TYR-GLY-LYS-GLU-ASP-SER-ILE-LEU-LEU-VAL-THR-GLY-GLN-GLU-VAL-GLU-LEU-SER-THR-VAL-ALA-VAL-GLN-ALA-GLY-SER-LEU-LEU-HIS-SER-LEU-VAL-LEU-ARG-ALA-GLN-GLU-LEU-VAL-LEU-GLN-LEU-HIS-ALA-LEU-GLN-LEU-ASP-ARG-GLN-GLU-PHE-VAL-CYS-LEU-LYS-PHE-LEU-ILE-LEU-PHE-SER-LEU-ASP-VAL-LYS-PHE-LEU-ASN-ASN-HIS-SER-LEU-VAL-LYS-ASP-ALA-GLN-GLU-LYS-ALA-ASN-ALA-ALA-LEU-LEU-ASP-TYR-THR-LEU-SER-HIS-TYR-PRO-HIS-SER-GLY-ASP-LYS-PHE-GLN-GLN-LEU-LEU-LEU-SER-LEU-VAL-GLU-VAL-ARG-ALA-LEU-SER-MET-GLN-ALA-LYS-GLU-TYR-LEU-TYR-HIS-LYS-HIS-LEU-GLY-ASN-GLU-MET-PRO-ARG-ASN-ASN-LEU-LEU-ILE-GLU-MET-LEU-GLN-ALA-DR9) - PEPTIDE
+  + SER:A:218
+  + SER:A:219
+  + GLY:A:220
+  + GLY:A:221
+  + PRO:A:222
+  + ASN:A:223
+  + VAL:A:224
+  + PRO:A:225
+  + GLU:A:226
+  + LEU:A:227
+  + ILE:A:228
+  + LEU:A:229
+  + GLN:A:230
+  + LEU:A:231
+  + LEU:A:232
+  + GLN:A:233
+  + LEU:A:234
+  + GLU:A:235
+  + PRO:A:236
+  + GLU:A:237
+  + GLU:A:238
+  + ASP:A:239
+  + GLN:A:240
+  + VAL:A:241
+  + ARG:A:242
+  + ALA:A:243
+  + ARG:A:244
+  + ILE:A:245
+  + VAL:A:246
+  + GLY:A:247
+  + CYS:A:248
+  + LEU:A:249
+  + GLN:A:250
+  + GLN:A:259
+  + PRO:A:260
+  + ALA:A:261
+  + PRO:A:262
+  + PHE:A:263
+  + SER:A:264
+  + LEU:A:265
+  + LEU:A:266
+  + CYS:A:267
+  + ARG:A:268
+  + MET:A:269
+  + ALA:A:270
+  + ASP:A:271
+  + GLN:A:272
+  + THR:A:273
+  + PHE:A:274
+  + ILE:A:275
+  + SER:A:276
+  + ILE:A:277
+  + VAL:A:278
+  + ASP:A:279
+  + TRP:A:280
+  + ALA:A:281
+  + ARG:A:282
+  + ARG:A:283
+  + CYS:A:284
+  + MET:A:285
+  + VAL:A:286
+  + PHE:A:287
+  + LYS:A:288
+  + GLU:A:289
+  + LEU:A:290
+  + GLU:A:291
+  + VAL:A:292
+  + ALA:A:293
+  + ASP:A:294
+  + GLN:A:295
+  + MET:A:296
+  + THR:A:297
+  + LEU:A:298
+  + LEU:A:299
+  + GLN:A:300
+  + ASN:A:301
+  + SER:A:302
+  + TRP:A:303
+  + SER:A:304
+  + GLU:A:305
+  + LEU:A:306
+  + LEU:A:307
+  + VAL:A:308
+  + LEU:A:309
+  + ASP:A:310
+  + HIS:A:311
+  + ILE:A:312
+  + TYR:A:313
+  + ARG:A:314
+  + GLN:A:315
+  + VAL:A:316
+  + GLN:A:317
+  + TYR:A:318
+  + GLY:A:319
+  + LYS:A:320
+  + GLU:A:321
+  + ASP:A:322
+  + SER:A:323
+  + ILE:A:324
+  + LEU:A:325
+  + LEU:A:326
+  + VAL:A:327
+  + THR:A:328
+  + GLY:A:329
+  + GLN:A:330
+  + GLU:A:331
+  + VAL:A:332
+  + GLU:A:333
+  + LEU:A:334
+  + SER:A:335
+  + THR:A:336
+  + VAL:A:337
+  + ALA:A:338
+  + VAL:A:339
+  + GLN:A:340
+  + ALA:A:341
+  + GLY:A:342
+  + SER:A:343
+  + LEU:A:344
+  + LEU:A:345
+  + HIS:A:346
+  + SER:A:347
+  + LEU:A:348
+  + VAL:A:349
+  + LEU:A:350
+  + ARG:A:351
+  + ALA:A:352
+  + GLN:A:353
+  + GLU:A:354
+  + LEU:A:355
+  + VAL:A:356
+  + LEU:A:357
+  + GLN:A:358
+  + LEU:A:359
+  + HIS:A:360
+  + ALA:A:361
+  + LEU:A:362
+  + GLN:A:363
+  + LEU:A:364
+  + ASP:A:365
+  + ARG:A:366
+  + GLN:A:367
+  + GLU:A:368
+  + PHE:A:369
+  + VAL:A:370
+  + CYS:A:371
+  + LEU:A:372
+  + LYS:A:373
+  + PHE:A:374
+  + LEU:A:375
+  + ILE:A:376
+  + LEU:A:377
+  + PHE:A:378
+  + SER:A:379
+  + LEU:A:380
+  + ASP:A:381
+  + VAL:A:382
+  + LYS:A:383
+  + PHE:A:384
+  + LEU:A:385
+  + ASN:A:386
+  + ASN:A:387
+  + HIS:A:388
+  + SER:A:389
+  + LEU:A:390
+  + VAL:A:391
+  + LYS:A:392
+  + ASP:A:393
+  + ALA:A:394
+  + GLN:A:395
+  + GLU:A:396
+  + LYS:A:397
+  + ALA:A:398
+  + ASN:A:399
+  + ALA:A:400
+  + ALA:A:401
+  + LEU:A:402
+  + LEU:A:403
+  + ASP:A:404
+  + TYR:A:405
+  + THR:A:406
+  + LEU:A:407
+  + SER:A:408
+  + HIS:A:409
+  + TYR:A:410
+  + PRO:A:411
+  + HIS:A:412
+  + SER:A:413
+  + GLY:A:414
+  + ASP:A:415
+  + LYS:A:416
+  + PHE:A:417
+  + GLN:A:418
+  + GLN:A:419
+  + LEU:A:420
+  + LEU:A:421
+  + LEU:A:422
+  + SER:A:423
+  + LEU:A:424
+  + VAL:A:425
+  + GLU:A:426
+  + VAL:A:427
+  + ARG:A:428
+  + ALA:A:429
+  + LEU:A:430
+  + SER:A:431
+  + MET:A:432
+  + GLN:A:433
+  + ALA:A:434
+  + LYS:A:435
+  + GLU:A:436
+  + TYR:A:437
+  + LEU:A:438
+  + TYR:A:439
+  + HIS:A:440
+  + LYS:A:441
+  + HIS:A:442
+  + LEU:A:443
+  + GLY:A:444
+  + ASN:A:445
+  + GLU:A:446
+  + MET:A:447
+  + PRO:A:448
+  + ARG:A:449
+  + ASN:A:450
+  + ASN:A:451
+  + LEU:A:452
+  + LEU:A:453
+  + ILE:A:454
+  + GLU:A:455
+  + MET:A:456
+  + LEU:A:457
+  + GLN:A:458
+  + ALA:A:459
+  + DR9:A:500
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Interacting chain(s): B
+
+
+**Hydrophobic Interactions**
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+-------------------------+------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | DIST | LIGCARBONIDX | PROTCARBONIDX | LIGCOO                  | PROTCOO                | 
++=======+=========+==========+===========+=============+==============+======+==============+===============+=========================+========================+
+| 20    | ILE     | B        | 452       | LEU         | A            | 3.83 | 2080         | 2180          | 90.325, 28.690, 10.826  | 90.564, 32.508, 10.930 | 
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+-------------------------+------------------------+
+| 24    | LEU     | B        | 278       | VAL         | A            | 3.98 | 447          | 2211          | 93.430, 29.173, 18.488  | 93.068, 32.276, 16.021 | 
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+-------------------------+------------------------+
+| 25    | LEU     | B        | 296       | MET         | A            | 3.63 | 652          | 2221          | 100.406, 28.527, 13.476 | 98.192, 29.389, 16.220 | 
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+-------------------------+------------------------+
+
+
+**Hydrogen Bonds**
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+-----------------------+------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | SIDECHAIN | DIST_H-A | DIST_D-A | DON_ANGLE | PROTISDON | DONORIDX | DONORTYPE | ACCEPTORIDX | ACCEPTORTYPE | LIGCOO                | PROTCOO                | 
++=======+=========+==========+===========+=============+==============+===========+==========+==========+===========+===========+==========+===========+=============+==============+=======================+========================+
+| 20    | ILE     | B        | 455       | GLU         | A            | False     | 1.88     | 2.82     | 160.37    | True      | 2174     | Nam       | 2106        | O.co2        | 92.892, 30.805, 6.949 | 93.683, 32.801, 8.784  | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+-----------------------+------------------------+
+| 21    | LEU     | B        | 455       | GLU         | A            | False     | 2.05     | 3.01     | 164.74    | True      | 2182     | Nam       | 2105        | O.co2        | 93.560, 29.503, 8.602 | 94.027, 31.179, 11.056 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+-----------------------+------------------------+
+
+
+

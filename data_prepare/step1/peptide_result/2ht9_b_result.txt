@@ -1,0 +1,143 @@
+Prediction of noncovalent interactions for PDB structure 2HT9
+=============================================================
+Created on 2022/10/13 using PLIP v2.2.2
+
+If you are using PLIP in your work, please cite:
+Adasme,M. et al. PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucl. Acids Res. (05 May 2021), gkab294. doi: 10.1093/nar/gkab294
+Analysis was done on model 1.
+
+THR:B:14 (THR-ALA-PRO-VAL-ASN-GLN-ILE-GLN-GLU-THR-ILE-SER-ASP-ASN-CYS-VAL-VAL-ILE-PHE-SER-LYS-THR-SER-CYS-SER-TYR-CYS-THR-MET-ALA-LYS-LYS-LEU-PHE-HIS-ASP-MET-ASN-VAL-ASN-TYR-LYS-VAL-VAL-GLU-LEU-ASP-LEU-LEU-GLU-TYR-GLY-ASN-GLN-PHE-GLN-ASP-ALA-LEU-TYR-LYS-MET-THR-GLY-GLU-ARG-THR-VAL-PRO-ARG-ILE-PHE-VAL-ASN-GLY-THR-PHE-ILE-GLY-GLY-ALA-THR-ASP-THR-HIS-ARG-LEU-HIS-LYS-GLU-GLY-LYS-LEU-LEU-PRO-LEU-VAL-HIS-GLN-CYS-TYR-LEU-LYS-LYS-SER-LYS-ARG-LYS-GLU-PHE-GLN-GSH) - PEPTIDE
+  + ALA:B:15
+  + PRO:B:16
+  + VAL:B:17
+  + ASN:B:18
+  + GLN:B:19
+  + ILE:B:20
+  + GLN:B:21
+  + GLU:B:22
+  + THR:B:23
+  + ILE:B:24
+  + SER:B:25
+  + ASP:B:26
+  + ASN:B:27
+  + CYS:B:28
+  + VAL:B:29
+  + VAL:B:30
+  + ILE:B:31
+  + PHE:B:32
+  + SER:B:33
+  + LYS:B:34
+  + THR:B:35
+  + SER:B:36
+  + CYS:B:37
+  + SER:B:38
+  + TYR:B:39
+  + CYS:B:40
+  + THR:B:41
+  + MET:B:42
+  + ALA:B:43
+  + LYS:B:44
+  + LYS:B:45
+  + LEU:B:46
+  + PHE:B:47
+  + HIS:B:48
+  + ASP:B:49
+  + MET:B:50
+  + ASN:B:51
+  + VAL:B:52
+  + ASN:B:53
+  + TYR:B:54
+  + LYS:B:55
+  + VAL:B:56
+  + VAL:B:57
+  + GLU:B:58
+  + LEU:B:59
+  + ASP:B:60
+  + LEU:B:61
+  + LEU:B:62
+  + GLU:B:63
+  + TYR:B:64
+  + GLY:B:65
+  + ASN:B:66
+  + GLN:B:67
+  + PHE:B:68
+  + GLN:B:69
+  + ASP:B:70
+  + ALA:B:71
+  + LEU:B:72
+  + TYR:B:73
+  + LYS:B:74
+  + MET:B:75
+  + THR:B:76
+  + GLY:B:77
+  + GLU:B:78
+  + ARG:B:79
+  + THR:B:80
+  + VAL:B:81
+  + PRO:B:82
+  + ARG:B:83
+  + ILE:B:84
+  + PHE:B:85
+  + VAL:B:86
+  + ASN:B:87
+  + GLY:B:88
+  + THR:B:89
+  + PHE:B:90
+  + ILE:B:91
+  + GLY:B:92
+  + GLY:B:93
+  + ALA:B:94
+  + THR:B:95
+  + ASP:B:96
+  + THR:B:97
+  + HIS:B:98
+  + ARG:B:99
+  + LEU:B:100
+  + HIS:B:101
+  + LYS:B:102
+  + GLU:B:103
+  + GLY:B:104
+  + LYS:B:105
+  + LEU:B:106
+  + LEU:B:107
+  + PRO:B:108
+  + LEU:B:109
+  + VAL:B:110
+  + HIS:B:111
+  + GLN:B:112
+  + CYS:B:113
+  + TYR:B:114
+  + LEU:B:115
+  + LYS:B:116
+  + LYS:B:117
+  + SER:B:118
+  + LYS:B:119
+  + ARG:B:120
+  + LYS:B:121
+  + GLU:B:122
+  + PHE:B:123
+  + GLN:B:124
+  + GSH:B:1200
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Interacting chain(s): A
+
+
+**Hydrophobic Interactions**
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+--------------------------+--------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | DIST | LIGCARBONIDX | PROTCARBONIDX | LIGCOO                   | PROTCOO                  | 
++=======+=========+==========+===========+=============+==============+======+==============+===============+==========================+==========================+
+| 39    | TYR     | A        | 39        | TYR         | B            | 3.79 | 1046         | 214           | -11.177, 46.461, -11.341 | -13.659, 43.698, -12.084 | 
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+--------------------------+--------------------------+
+| 39    | TYR     | A        | 39        | TYR         | B            | 3.78 | 1044         | 216           | -10.380, 45.328, -11.125 | -12.925, 43.547, -13.280 | 
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+--------------------------+--------------------------+
+
+
+**Hydrogen Bonds**
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+------------------------+-------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | SIDECHAIN | DIST_H-A | DIST_D-A | DON_ANGLE | PROTISDON | DONORIDX | DONORTYPE | ACCEPTORIDX | ACCEPTORTYPE | LIGCOO                 | PROTCOO                 | 
++=======+=========+==========+===========+=============+==============+===========+==========+==========+===========+===========+==========+===========+=============+==============+========================+=========================+
+| 36    | SER     | A        | 1200      | GSH         | B            | False     | 2.17     | 3.05     | 148.97    | False     | 1844     | Nam       | 193         | O2           | -9.442, 43.901, -1.497 | -12.148, 43.522, -2.855 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+------------------------+-------------------------+
+
+
+
